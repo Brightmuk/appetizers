@@ -35,16 +35,6 @@
 			path = Appetizers;
 			sourceTree = "<group>";
 		};
-		390CDE1D2E3019CA004CA46D /* AppetizersTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AppetizersTests;
-			sourceTree = "<group>";
-		};
-		390CDE272E3019CA004CA46D /* AppetizersUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AppetizersUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				390CDE0C2E3019C7004CA46D /* Appetizers */,
-				390CDE1D2E3019CA004CA46D /* AppetizersTests */,
-				390CDE272E3019CA004CA46D /* AppetizersUITests */,
 				390CDE0B2E3019C7004CA46D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				390CDE1C2E3019CA004CA46D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				390CDE1D2E3019CA004CA46D /* AppetizersTests */,
-			);
 			name = AppetizersTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				390CDE262E3019CA004CA46D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				390CDE272E3019CA004CA46D /* AppetizersUITests */,
 			);
 			name = AppetizersUITests;
 			packageProductDependencies = (
