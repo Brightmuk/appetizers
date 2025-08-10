@@ -18,7 +18,7 @@ struct Appetizer: Decodable, Identifiable{
     let calories: Int
 }
 struct AppetizerResponse: Decodable{
-    let request: Array<Appetizer>
+    let appetizers: Array<Appetizer>
     
 }
 
