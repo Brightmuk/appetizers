@@ -30,5 +30,5 @@ struct AppetizerTile: View {
 }
 
 #Preview {
-    AppetizerTile(appetizer: MockData.sampleAppetizer)
+    AppetizerTile(appetizer: MockData.sampleAppetizer1)
 }

@@ -23,8 +23,8 @@ struct AppetizerResponse: Decodable{
 }
 
 struct MockData {
-   static let sampleAppetizer = Appetizer(
-        id: "0001",
+   static let sampleAppetizer1 = Appetizer(
+        id: "01",
         name: "Test Appetizer",
         description: "Sample Appetizer description that wraps from a single line",
         price: 9.99,
@@ -34,5 +34,28 @@ struct MockData {
         calories: 99
         
     )
-    static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer];
+    static let sampleAppetizer2 = Appetizer(
+         id: "02",
+         name: "Test Appetizer",
+         description: "Sample Appetizer description that wraps from a single line",
+         price: 9.99,
+         imageURL: "https://i.ibb.co/zHVxCNjk/4.png",
+         protein: 99,
+         carbs: 99,
+         calories: 99
+         
+     )
+    static let sampleAppetizer3 = Appetizer(
+         id: "03",
+         name: "Test Appetizer",
+         description: "Sample Appetizer description that wraps from a single line",
+         price: 9.99,
+         imageURL: "https://i.ibb.co/zHVxCNjk/4.png",
+         protein: 99,
+         carbs: 99,
+         calories: 99
+         
+     )
+    static let appetizers = [sampleAppetizer1, sampleAppetizer2, sampleAppetizer3];
+    static let orderItems = [sampleAppetizer3, sampleAppetizer1, sampleAppetizer2];
 }
